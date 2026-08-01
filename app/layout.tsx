@@ -50,7 +50,7 @@ export const metadata: Metadata = {
       {
         url: '/images/homepage_preview.png',
         width: 1024,
-        height: 419,
+        height: 486,
         alt: 'WIE Summit 3.0 Home Preview',
       },
     ],
