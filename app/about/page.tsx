@@ -4,6 +4,12 @@ import { ScrollReveal, StaggerReveal } from '@/components/ui/ScrollReveal';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Target, Eye, Heart, BarChart3, AlertCircle } from 'lucide-react';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'About the Summit | WIE Summit 3.0 | ESA WIE Kenyatta University',
+  description: 'Learn about the Women in Engineering Summit, its vision of shaping a just, green, and digital future, and the representation stats of women in engineering in Kenya.',
+};
 
 export default function About() {
   return (

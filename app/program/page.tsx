@@ -1,6 +1,10 @@
-'use client';
-
 import React from 'react';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Program Schedule | WIE Summit 3.0 | ESA WIE Kenyatta University',
+  description: 'Explore the WIE Summit 3.0 schedule, keynote tracks, and workshops. Join us at Kenyatta University as we host hands-on tech sessions and leadership masterclasses.',
+};
 import { HeroSection } from '@/components/sections/HeroSection';
 import { ScrollReveal } from '@/components/ui/ScrollReveal';
 import Image from 'next/image';

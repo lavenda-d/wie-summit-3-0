@@ -20,8 +20,19 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://wie-summit-3-0.vercel.app'),
-  title: 'WIE Summit 3.0 | Women in Engineering',
-  description: 'Women in Engineering Summit 3.0 - Shaping a Just, Green, and Digital Future through Impactful Innovation and Leadership. November 2026, Kenyatta University.',
+  title: 'WIE Summit 3.0 | ESA Women in Engineering | Kenyatta University',
+  description: 'Join WIE Summit 3.0, Kenya\'s premier Women in Engineering conference hosted by ESA-WIE Kenyatta University. Connect with industry leaders, innovators, students, and partners shaping a just, green, and digital future.',
+  keywords: [
+    'WIE Summit 3.0',
+    'Women in Engineering Summit Kenya',
+    'ESA WIE Kenyatta University',
+    'Engineering Students Association',
+    'Women in STEM Kenya',
+    'Engineering Conference Kenya',
+    'Girls in STEM',
+    'Innovation Summit',
+    'Kenyatta University Engineering'
+  ],
   icons: {
     icon: [
       {
@@ -31,8 +42,8 @@ export const metadata: Metadata = {
     apple: '/images/logo.jpg',
   },
   openGraph: {
-    title: 'WIE Summit 3.0 | Women in Engineering',
-    description: 'Empowering women engineers to take charge and excel in engineering and STEM fields.',
+    title: 'WIE Summit 3.0 | ESA Women in Engineering | Kenyatta University',
+    description: 'Join WIE Summit 3.0, Kenya\'s premier Women in Engineering conference hosted by ESA-WIE Kenyatta University. Connect with industry leaders, innovators, students, and partners shaping a just, green, and digital future.',
     url: 'https://wiesummit.com',
     type: 'website',
     images: [
