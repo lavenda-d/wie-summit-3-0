@@ -37,10 +37,10 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/images/coming_soon_poster.jpg',
-        width: 800,
-        height: 1000,
-        alt: 'WIE Summit 3.0 Coming Soon Poster',
+        url: '/images/homepage_preview.png',
+        width: 1024,
+        height: 419,
+        alt: 'WIE Summit 3.0 Home Preview',
       },
     ],
   },
