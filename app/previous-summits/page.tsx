@@ -23,21 +23,39 @@ export default function PreviousSummits() {
 
   const testimonials = [
     {
-      quote: "WIE Summit was transformative. I gained technical skills, mentorship, and lifelong connections with amazing women in engineering.",
-      author: "Sarah M.",
-      affiliation: "University of Nairobi Student",
+      quote: "The WIE Summit was highly transformative. I gained practical technical skills, mentorship, and made lifelong connections with amazing women in engineering.",
+      author: "Sarah Mwangi",
+      affiliation: "University of Nairobi, Engineering Student",
       stars: 5,
     },
     {
-      quote: "The hackathon was intense but inspiring. I proved to myself what I'm capable of and got recruited by one of the corporate sponsors!",
-      author: "Jane K.",
-      affiliation: "Kenyatta University Graduate",
+      quote: "The hackathon was intense but deeply inspiring. Working on real-world sustainability solutions helped build my confidence in software engineering.",
+      author: "Jane Kemunto",
+      affiliation: "Kenyatta University, Electrical Engineering Student",
       stars: 5,
     },
     {
-      quote: "As a keynote speaker, I was impressed by the caliber of participants and the passion for creating green tech change in our industry.",
-      author: "Dr. Grace O.",
-      affiliation: "Tech Industry Director & Advisor",
+      quote: "The hands-on workshops on embedded systems and digital transformation were top-tier. It was highly practical, structured, and interactive.",
+      author: "Ruth Wanjiru",
+      affiliation: "Jomo Kenyatta University, Mechatronics Student",
+      stars: 5,
+    },
+    {
+      quote: "The roundtable energy grid debates were inspiring. It is a highly supportive space where student voices really matter and lead tech talks.",
+      author: "Alice Jepkosgei",
+      affiliation: "Kenyatta University, Mechanical Engineering Student",
+      stars: 5,
+    },
+    {
+      quote: "As a male ally, the summit opened my eyes to how we can collaboratively build a more inclusive space in tech. Inspiring projects all around!",
+      author: "Brian Otieno",
+      affiliation: "Technical University of Kenya, Telecommunications Student",
+      stars: 5,
+    },
+    {
+      quote: "The hardware design workshop was excellent. I met industry leaders who offered invaluable guidance on my final year project.",
+      author: "Kevin Kiprop",
+      affiliation: "Kenyatta University, Telecommunications Student",
       stars: 5,
     },
   ];
