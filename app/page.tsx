@@ -282,10 +282,9 @@ export default function Home() {
                     </span>
                   )}
                   <div>
-                    <h3 className={`text-2xl font-bold mb-1 ${tier.featured ? 'text-accent' : 'text-foreground'}`}>
+                    <h3 className={`text-2xl font-bold mb-6 ${tier.featured ? 'text-accent' : 'text-foreground'}`}>
                       {tier.name}
                     </h3>
-                    <p className="text-lg font-extrabold text-foreground/80 mb-6">{tier.range} KES</p>
                     <ul className="space-y-3 text-sm text-foreground/75 dark:text-gray-400 mb-8 font-semibold">
                       {tier.benefits.map((benefit, i) => (
                         <li key={i} className="flex items-center gap-2.5">

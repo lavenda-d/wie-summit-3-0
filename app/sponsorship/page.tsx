@@ -317,12 +317,9 @@ export default function Sponsorship() {
                   )}
                   
                   <div>
-                    <h3 className={cn("text-2xl font-extrabold mb-1", tier.featured ? 'text-accent' : 'text-foreground')}>
+                    <h3 className={cn("text-2xl font-extrabold mb-3", tier.featured ? 'text-accent' : 'text-foreground')}>
                       {tier.name}
                     </h3>
-                    <p className="font-extrabold text-lg text-foreground/80 mb-3">
-                      {tier.range}
-                    </p>
                     <p className="text-xs text-foreground/75 dark:text-gray-400 mb-6 leading-relaxed font-semibold">
                       {tier.description}
                     </p>
