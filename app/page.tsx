@@ -118,49 +118,8 @@ export default function Home() {
     },
   ];
 
-  const eventJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Event",
-    "name": "WIE Summit 3.0",
-    "description": "Kenya's premier Women in Engineering conference hosted by ESA-WIE Kenyatta University, shaping a just, green, and digital future.",
-    "startDate": "2026-11-26T08:00:00+03:00",
-    "endDate": "2026-11-27T17:00:00+03:00",
-    "eventStatus": "https://schema.org/EventScheduled",
-    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-    "location": {
-      "@type": "Place",
-      "name": "Kenyatta University Main Campus",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Nairobi",
-        "addressRegion": "Nairobi County",
-        "addressCountry": "KE"
-      }
-    },
-    "image": [
-      "https://wie-summit-3-0-ec3n.vercel.app/images/homepage_preview.png"
-    ],
-    "organizer": {
-      "@type": "Organization",
-      "name": "ESA-WIE Kenyatta University Chapter",
-      "url": "https://www.instagram.com/esa_wie_ku/"
-    },
-    "offers": {
-      "@type": "Offer",
-      "url": "https://wie-summit-3-0-ec3n.vercel.app/registration",
-      "price": "0",
-      "priceCurrency": "KES",
-      "availability": "https://schema.org/InStock",
-      "validFrom": "2026-08-01"
-    }
-  };
-
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(eventJsonLd) }}
-      />
       {/* Hero Section */}
       <HeroSection
         title="Women in Engineering Summit 3.0"
