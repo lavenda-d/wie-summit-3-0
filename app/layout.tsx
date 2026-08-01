@@ -19,6 +19,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://wie-summit-3-0.vercel.app'),
   title: 'WIE Summit 3.0 | Women in Engineering',
   description: 'Women in Engineering Summit 3.0 - Shaping a Just, Green, and Digital Future through Impactful Innovation and Leadership. November 2026, Kenyatta University.',
   icons: {
@@ -34,6 +35,14 @@ export const metadata: Metadata = {
     description: 'Empowering women engineers to take charge and excel in engineering and STEM fields.',
     url: 'https://wiesummit.com',
     type: 'website',
+    images: [
+      {
+        url: '/images/coming_soon_poster.jpg',
+        width: 800,
+        height: 1000,
+        alt: 'WIE Summit 3.0 Coming Soon Poster',
+      },
+    ],
   },
 }
 
