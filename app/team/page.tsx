@@ -22,6 +22,7 @@ export default function Team() {
       bio: 'ESA-WIE Chairperson coordinating the overall vision, timeline coordination, and execution of the summit.',
       avatarColor: 'from-[#d946ef] to-pink-500',
       image: '/images/team_natasha.png',
+      objectPosition: 'object-[center_30%]',
       linkedin: 'https://www.linkedin.com/in/lavenda-shipichira-034b38272',
     },
     {

@@ -118,8 +118,20 @@ export default function Home() {
     },
   ];
 
+  const websiteJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "WIE Summit 3.0",
+    "alternateName": "WIE Summit 3.0 Kenyatta University",
+    "url": "https://wie-summit-3-0-ec3n.vercel.app"
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+      />
       {/* Hero Section */}
       <HeroSection
         title="Women in Engineering Summit 3.0"
